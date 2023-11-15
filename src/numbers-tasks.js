@@ -9,6 +9,7 @@
 
 /**
  * Returns an area of a rectangle given by width and height.
+ * Возвращает площадь прямоугольника, заданную шириной и высотой
  *
  * @param {number} width
  * @param {number} height
@@ -18,8 +19,8 @@
  *   5, 10 => 50
  *   5, 5  => 25
  */
-function getRectangleArea(/* width, height */) {
-  throw new Error('Not implemented');
+function getRectangleArea(width, height) {
+  return width * height;
 }
 
 /**
