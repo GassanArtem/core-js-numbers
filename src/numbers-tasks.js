@@ -9,7 +9,6 @@
 
 /**
  * Returns an area of a rectangle given by width and height.
- * Возвращает площадь прямоугольника, заданную шириной и высотой
  *
  * @param {number} width
  * @param {number} height
@@ -34,8 +33,8 @@ function getRectangleArea(width, height) {
  *   3.14 => 19.729201864543903
  *   0    => 0
  */
-function getCircleCircumference(/* radius */) {
-  throw new Error('Not implemented');
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
 }
 
 /**
