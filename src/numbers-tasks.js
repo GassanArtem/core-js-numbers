@@ -188,7 +188,7 @@ function roundToPowerOfTen(num, pow) {
  * Returns true is the number is prime; otherwise false.
  * See: https://en.wikipedia.org/wiki/Primality_test
  *
- * @param {number} n
+ * @param {number}
  * @return {bool}
  *
  * @example:
@@ -235,8 +235,8 @@ function toNumber(/* value, def */) {
  *   -2 => -8
  *   0  => 0
  */
-function getCube(/* num */) {
-  throw new Error('Not implemented');
+function getCube(num) {
+  return num ** 3;
 }
 
 /**
